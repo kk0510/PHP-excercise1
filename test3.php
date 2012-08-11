@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html lang="ja">
 <head>
@@ -10,6 +11,8 @@
 <input type="submit" value="送信！">
 </form>
 <?php
+ini_set('display_errors', 1);
+error_reporting(-1);
 echo "Let's＼(・ω・)／".htmlspecialchars($_GET['name']);
 ?>
 </body>
