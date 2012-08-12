@@ -11,7 +11,6 @@ $name = (isset($_GET['name']))? $_GET['name']: "";
 <html lang="ja">
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 </head>
 <body>
 <form action="./exe2.php" method="GET">
